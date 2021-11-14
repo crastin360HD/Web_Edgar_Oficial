@@ -403,8 +403,8 @@ article {
 
 	
 	.menu {
-		width:300px;
-		height:100%;
+		width:70%;
+		height:80%;
 		position:fixed;
 		top: 80px;
 		left: 0;
@@ -435,15 +435,19 @@ article {
     }
 
 	.menu ul li a {
-		width:150px;
+		width:130px;
 		height:40px;
 		text-align: center;
 		
 	}
 
+	.menu i {
+		display:none;
+	}
+
 	.menu nav {
-		background-color: #005791;
-		width:260px;
+		background-color:#0077db;
+		width:90%;
 		margin:auto;
 		height:500px;
 		border-radius: 10px;
@@ -453,7 +457,7 @@ article {
 	.menu li a {
 		background:#fff;
 		color: #111111;
-		border-bottom: #0099ff9f solid 7px;
+		border-bottom: #0099ff solid 7px;
 	}
 
 	.menu a:hover {
